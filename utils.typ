@@ -17,7 +17,7 @@
 ///
 /// - authors (list of tuples): a list of tuples containing names and emails
 /// -> (block): a block containing the authors' information
-#let author_list(authors, logo: none, width: 55%) = block[
+#let author_list(authors, logo: none, width: 30%) = block[
   #table(
     inset: (0em, 0em), column-gutter: 1em, row-gutter: 0.75em, stroke: none, columns: (auto, 4fr), align: (left, left),
     ..authors.map((record) => (record.at(0), mail(record.at(1)))).flatten()
