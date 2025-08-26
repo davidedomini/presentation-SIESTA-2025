@@ -121,8 +121,15 @@ subtitle: [International Software Engineering Summer School \@ SIESTA 2025],
 _A novel, *self-organizing* learning paradigm that *holistically* tackles scalability, efficiency and decentralization challenges -- *all at once*_
 
 
-== What we have done so far 
-TODO
+== Progress to Date
+
+- Explored *proximity-based and field-based coordination* to overcome non-IID data and decentralization bottlenecks
+
+- Designed *self-federated learning* strategies that reduce communication and resource overhead
+
+- Created *benchmarks#footnote(link("https://github.com/davidedomini/ProFed")) and toolchains#footnote(link("https://github.com/phyelds/phyelds"))* to evaluate scalability and real-world applicability
+
+- Laid the foundations for *self-adaptive, decentralized* collective intelligence
 
 == Research Roadmap
 #figure(image("images/roadmap.svg", height: 60%))
